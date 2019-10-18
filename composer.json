@@ -1,0 +1,27 @@
+{
+    "name": "liushuaicai/laravel-composer",
+    "description": "this is a laravel composer package test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lsc",
+            "email": "1252578541@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle":"^6.3"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Ugc\\Comment\\": "src"
+        }
+    },
+    "extra": {
+        "branch_alias": {
+            "dev-master": "1.0.x-dev"
+        }
+       
+    },
+    "minimum-stability": "stable"
+}
